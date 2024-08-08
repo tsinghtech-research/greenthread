@@ -5,7 +5,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
 
 setup(
     name='greenthread',
-    version='0.1.0',
+    version='0.1.1',
     author='tsinghtech',
     author_email="vision@qingtong.cn",
     description='A simple green thread library compatible eventlet and gevent',
