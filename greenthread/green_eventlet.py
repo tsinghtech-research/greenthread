@@ -40,3 +40,5 @@ def tpool_execute(func, *args, **kws):
 
 class GreenTimeout(Timeout):
     close = Timeout.cancel
+
+Semaphore = eventlet.semaphore.Semaphore

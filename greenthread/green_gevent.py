@@ -47,3 +47,5 @@ class GreenTimeout(Timeout):
         self.start()
 
     cancel = Timeout.close
+
+Semaphore = gevent.lock.Semaphore
